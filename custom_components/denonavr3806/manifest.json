@@ -1,0 +1,16 @@
+{
+  "domain": "denonavr3806",
+  "name": "Denon AVR 3806",
+  "config_flow": true,
+  "documentation": "https://www.home-assistant.io/integrations/denonavr3806",
+  "requirements": [
+    "denon-avr-serial-over-ip==0.0.4"
+  ],
+  "ssdp": [],
+  "zeroconf": [],
+  "homekit": {},
+  "dependencies": [],
+  "codeowners": [
+    "@troykelly"
+  ]
+}

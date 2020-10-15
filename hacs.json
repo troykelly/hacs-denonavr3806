@@ -1,0 +1,11 @@
+{
+    "name": "Denon AVR 3806",
+    "country": "AU",
+    "domains": [
+        "media_player"
+    ],
+    "homeassistant": "0.116.0",
+    "iot_class": [
+        "Local Polling"
+    ]
+}
