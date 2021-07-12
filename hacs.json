@@ -4,7 +4,7 @@
     "domains": [
         "media_player"
     ],
-    "homeassistant": "0.116.0",
+    "homeassistant": "2021.7.1",
     "iot_class": [
         "Local Polling"
     ]

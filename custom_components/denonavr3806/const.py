@@ -1,6 +1,9 @@
 """Constants for the Denon AVR 3806 integration."""
 
 DOMAIN = "denonavr3806"
+
+INTEGRATION_VERSION = "0.0.0"
+
 DEFAULT_NAME = "AVR3806"
 DEFAULT_HOST = "10.7.3.200"
 DEFAULT_PORT = 5001

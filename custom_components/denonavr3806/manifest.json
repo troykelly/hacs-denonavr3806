@@ -1,8 +1,10 @@
 {
   "domain": "denonavr3806",
+  "version": "0.0.0",
   "name": "Denon AVR 3806",
   "config_flow": true,
-  "documentation": "https://www.home-assistant.io/integrations/denonavr3806",
+  "documentation": "https://github.com/troykelly/hacs-denonavr3806/wiki",
+  "issue_tracker": "https://github.com/troykelly/hacs-denonavr3806/issues",
   "requirements": [
     "denon-avr-serial-over-ip==0.0.4"
   ],
@@ -12,5 +14,6 @@
   "dependencies": [],
   "codeowners": [
     "@troykelly"
-  ]
+  ],
+  "iot_class": "local_polling"
 }
