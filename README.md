@@ -1,6 +1,6 @@
 # Denon AVR Serial Control over IP for Home Assistant
 
-[![GitHub Stars](https://img.shields.io/github/stars/troykelly/hacs-denonavr3806.svg)](https://github.com/troykelly/hacs-denonavr3806/stargazers) [![GitHub Issues](https://img.shields.io/github/issues/troykelly/hacs-denonavr3806.svg)](https://github.com/troykelly/hacs-denonavr3806/issues) [![Current Version](https://img.shields.io/badge/version-0.0.1-green.svg)](https://github.com/troykelly/hacs-denonavr3806) ![Validate with hassfest](https://github.com/troykelly/hacs-denonavr3806/workflows/Validate%20with%20hassfest/badge.svg?branch=master) ![Validate](https://github.com/troykelly/hacs-denonavr3806/workflows/Validate/badge.svg)
+[![GitHub Stars](https://img.shields.io/github/stars/troykelly/hacs-denonavr3806.svg)](https://github.com/troykelly/hacs-denonavr3806/stargazers) [![GitHub Issues](https://img.shields.io/github/issues/troykelly/hacs-denonavr3806.svg)](https://github.com/troykelly/hacs-denonavr3806/issues) [![Current Version](https://img.shields.io/badge/version-0.0.2-green.svg)](https://github.com/troykelly/hacs-denonavr3806) [![Validate](https://github.com/troykelly/hacs-denonavr3806/actions/workflows/validate.yml/badge.svg?branch=main)](https://github.com/troykelly/hacs-denonavr3806/actions/workflows/validate.yml)
 
 Control serial only or telnet Denon AVR devices like the Denon AVR3806 over IP with a serial to IP gateway.
 
