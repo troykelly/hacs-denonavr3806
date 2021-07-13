@@ -18,4 +18,4 @@ pytest-socket==0.4.0
 queueman==0.5
 requests==2.25.1
 vulture==2.3
-denon-avr-serial-over-ip==0.0.4
+denon-avr-serial-over-ip==0.0.5

@@ -6,7 +6,7 @@
   "documentation": "https://github.com/troykelly/hacs-denonavr3806/wiki",
   "issue_tracker": "https://github.com/troykelly/hacs-denonavr3806/issues",
   "requirements": [
-    "denon-avr-serial-over-ip==0.0.4"
+    "denon-avr-serial-over-ip==0.0.5"
   ],
   "ssdp": [],
   "zeroconf": [],

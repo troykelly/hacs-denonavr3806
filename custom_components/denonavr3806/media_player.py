@@ -121,6 +121,16 @@ class DenonDevice(MediaPlayerEntity):
         return f"{self.__ha_name} {self.__zone.name}"
 
     @property
+    def unique_id(self):
+        """Return the unique id of the device"""
+        return None
+
+    @property
+    def device_class(self):
+        """Return the device class"""
+        return "receiver"
+
+    @property
     def state(self):
         """Return the state of the device."""
         if self.__zone.state == "On":
