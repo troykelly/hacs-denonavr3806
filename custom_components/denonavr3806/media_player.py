@@ -6,6 +6,7 @@ https://github.com/troykelly/python-denon-avr-serial-over-ip/wiki
 """
 from datetime import timedelta
 
+import hashlib
 import logging
 
 import voluptuous as vol
@@ -83,7 +84,8 @@ async def async_setup_entry(hass: HomeAssistantType, entry, async_add_entities):
     entities = list()
     for entity_id in hass.data[DOMAIN]["entity_ref"]:
         _LOGGER.debug(
-            "Adding entity %s to list with state: %s",
+            "Adding entity (%s) %s to list with state: %s",
+            hass.data[DOMAIN]["entity_ref"][entity_id].unique_id,
             hass.data[DOMAIN]["entity_ref"][entity_id].name,
             hass.data[DOMAIN]["entity_ref"][entity_id].state,
         )
@@ -123,7 +125,8 @@ class DenonDevice(MediaPlayerEntity):
     @property
     def unique_id(self):
         """Return the unique id of the device"""
-        return None
+        hash_object = hashlib.md5(self.__zone.unique_id.encode())
+        return hash_object.hexdigest()
 
     @property
     def device_class(self):
